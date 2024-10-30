@@ -1,0 +1,16 @@
+{
+  "name": "dacalleg/mobile-wordpress-security",
+  "require": {
+    "jms/serializer": "^1.14"
+  },
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "MobileSecurity\\": "includes/"
+    }
+  }
+}
